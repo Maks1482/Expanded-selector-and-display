@@ -1,0 +1,33 @@
+/* CSS код */
+nav {
+  display: inline-block; /* Змінюємо nav на inline-блок */
+  width: 80%; /* Змінюємо ширину на близько 80% */
+}
+
+nav ul {
+  list-style-type: none; /* Закоментуйте існуючий стиль для елемента li */
+}
+
+nav ul li {
+  /* Закоментуйте існуючий стиль для елемента li */
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.grid {
+  display: grid; /* Змінюємо на двоколонкову сітку */
+  grid-template-columns: 40% 40%; /* Кожна колонка має ширину приблизно 40% */
+  gap: 10px; /* Встановлюємо проміжок між елементами */
+}
+
+.grid figure img {
+  width: 100%; /* Змінюємо ширину зображень у класі grid на 100% */
+}
+
+.flex {
+  display: flex; /* Стилізуємо клас flex для використання flex */
+  flex-wrap: wrap; /* Змінюємо flex-wrap */
+  justify-content: space-between; /* Змінюємо justify-content */
+}
